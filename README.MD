@@ -1,7 +1,10 @@
 # mypackage
+# Top N Module
 
-This library was created as an example of how to publish your own python package
+A simple Python utility function that returns the top N largest values from a list or array.
+It sorts the list using a basic bubble-sort approach and returns the highest values in descending order.
 
-....
+Function: top_n(items, n)
+Description
 
-# How to install
+top_n takes an array-like list of numbers and returns the N highest values, sorted from largest to smallest.
